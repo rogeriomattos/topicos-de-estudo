@@ -23,6 +23,10 @@ As famosas "God Class" infligem esse princípio, pois elas possuem várias respo
 
 #### Referências
 
-https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+<a target="_blank" href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">
+  O que é SOLID: O guia completo para você entender os 5 princípios da POO
+</a>
+<a target="_blank" href="https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/">
+  SOLID: guia completo sobre os 5 princípios da POO!
+</a>
 
-https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/

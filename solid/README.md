@@ -21,6 +21,10 @@ Esse princípio declara que uma classe deve ser especializada em um único assun
 
 As famosas "God Class" infligem esse princípio, pois elas possuem várias responsabildades e execultam funções de escopo totalmente distintos. 
 
+### 2. Open-Closed Principle (Princípio Aberto-Fechado)
+
+Princípio Aberto-Fechado — Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação, ou seja, quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
+
 #### Referências
 <ul>
   <li>

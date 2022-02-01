@@ -25,16 +25,27 @@ As famosas "God Class" infligem esse princípio, pois elas possuem várias respo
 
 Princípio Aberto-Fechado — Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação, ou seja, quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
 
+### 3. Liskov Substitution Principle (Princípio da substituição de Liskov)
+
+O Princípio de Substituição de Liskov diz que objetos podem ser substituídos por seus subtipos sem que isso afete a execução correta do programa.
+
+O LSP tem como objetivo manter o funcionamento do código íntegro no processo de acoplamento de funcionalidades na aplicação. Esse princípio é quebrado em situações nas quais uma subclasse deixa de herdar um comportamento da classe pai, seja sobrescrevendo um método e lançando uma exceção ou não tirando proveito de todas as funcionalidades dela.
+
 #### Referências
 <ul>
   <li>
-  <a target="_blank" href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">
+  <a href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">
     O que é SOLID: O guia completo para você entender os 5 princípios da POO
   </a>
   </li>
   <li>
-    <a target="_blank" href="https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/">
+    <a href="https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/">
       SOLID: guia completo sobre os 5 princípios da POO!
+    </a>
+  </li>
+  <li>
+    <a href="https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-de-substituicao-de-liskov">
+      S.O.L.I.D.: Princípio de Substituição de Liskov
     </a>
   </li>
 </ul>

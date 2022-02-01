@@ -29,6 +29,10 @@ Princípio Aberto-Fechado — Objetos ou entidades devem estar abertos para exte
 
 O Princípio de Substituição de Liskov diz que objetos podem ser substituídos por seus subtipos sem que isso afete a execução correta do programa.
 
+Se para cada objeto O1, do tipo S, há um objeto O2, do tipo T, de tal forma que um programa P definido em termos de T, o comportamento de P não é alterado quando O1 é substituído por O2. Então S é um subtipo de T.
+
+Trocando em miúdos, se você tem duas classes (tanto faz se elas herdam da mesma classe ou implementam uma interface em comum) e ao passá-las para um código, nada precisa ser alterado nesse código, então elas são subtipos uma da outra. Ou seja, o programa que recebe esses objetos não pode precisar saber qual o tipo exato ele está recebendo e tão pouco precisar ser modificado por este motivo.
+
 O LSP tem como objetivo manter o funcionamento do código íntegro no processo de acoplamento de funcionalidades na aplicação. Esse princípio é quebrado em situações nas quais uma subclasse deixa de herdar um comportamento da classe pai, seja sobrescrevendo um método e lançando uma exceção ou não tirando proveito de todas as funcionalidades dela.
 
 #### Referências
@@ -46,6 +50,11 @@ O LSP tem como objetivo manter o funcionamento do código íntegro no processo d
   <li>
     <a href="https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-de-substituicao-de-liskov">
       S.O.L.I.D.: Princípio de Substituição de Liskov
+    </a>
+  </li>
+  <li>
+    <a href="https://www.blogdoft.com.br/2020/03/15/solid-de-verdade-liskov-substitution-principle-lsp/">
+      SOLID de verdade – Liskov Substitution Principle (LSP)
     </a>
   </li>
 </ul>

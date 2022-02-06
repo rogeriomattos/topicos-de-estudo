@@ -43,6 +43,13 @@ Esse princípio basicamente diz que é melhor criar interfaces mais específicas
 
 Quando você aplica o princípio de herança, fazendo uma classe herdar da outra, sua classe filha é obrigada a implementar os métodos da classe pai e como você já deve estar imaginando, isso vai contra os princípios do SOLID, pois não é nada interessante que uma classe implementa métodos que não é útil para ela.
 
+### 5. Dependency Inversion Principle (Princípio da inversão da dependência)
+
+“Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração.”
+
+“Abstrações não devem depender de detalhes. Os detalhes devem depender das abstrações.”
+
+Em outras palavras, os módulos que são classes de alto nível devem depender de conceitos, também chamadas de abstrações independente de como funcionam, ou seja, a função da inversão de dependência faz com que os softwares se desassociem dos módulos. 
 
 #### Referências
 <ul>

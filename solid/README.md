@@ -35,6 +35,15 @@ Trocando em miúdos, se você tem duas classes (tanto faz se elas herdam da mesm
 
 O LSP tem como objetivo manter o funcionamento do código íntegro no processo de acoplamento de funcionalidades na aplicação. Esse princípio é quebrado em situações nas quais uma subclasse deixa de herdar um comportamento da classe pai, seja sobrescrevendo um método e lançando uma exceção ou não tirando proveito de todas as funcionalidades dela.
 
+### 4. Interface Segregation Principle (Princípio da Segregação da Interface)
+
+Esse princípio basicamente diz que é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
+
+“Classes não devem ser forçadas a depender de métodos que não usam.” 
+
+Quando você aplica o princípio de herança, fazendo uma classe herdar da outra, sua classe filha é obrigada a implementar os métodos da classe pai e como você já deve estar imaginando, isso vai contra os princípios do SOLID, pois não é nada interessante que uma classe implementa métodos que não é útil para ela.
+
+
 #### Referências
 <ul>
   <li>

@@ -41,3 +41,26 @@ Registro (struct) é um mecanismo que agrega vários itens de tipos diferentes, 
   ```
 
 ### 3. Ponteiro
+
+Ponteiro é uma variável que guarda o endereço de outra variável. Dizemos que um ponteiro “aponta” para uma varíável quando contém o endereço da mesma. Os ponteiros podem apontar para qualquer tipo de variável. Portanto temos ponteiros para int, float, double, etc. Exempl de ponteiro inteiro:
+
+```c
+  int x = 10;
+
+  int *p;
+
+  p = &x;
+
+
+  printf("Endereco = %d\n", p);
+  printf("valor = %d\n", *p);
+```
+
+Esse exemplo mostraria o resultado abaixo:
+
+```cmd
+Endereco = 6356720
+Valor = 10
+```
+
+O primeiro printf mostra o endereço de memória que o ponteiro armazenou, no segundo printf ao passar p com *, o programa acessa o valor da variável que esta no endereço guardado.

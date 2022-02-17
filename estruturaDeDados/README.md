@@ -64,3 +64,10 @@ Valor = 10
 ```
 
 O primeiro printf mostra o endereço de memória que o ponteiro armazenou, no segundo printf ao passar p com *, o programa acessa o valor da variável que esta no endereço guardado.
+
+
+## Pilha
+
+Pilha é uma lista em que todas as operações de inserção, remoção e acesso são feitas num mesmo extremo, denominado topo.
+
+Quando um item é inserido numa pilha, ele é colocado em seu top e, em qualquer instante, apenas o item no topo da pilha pode ser removido. Devido a essa política de acesso, os itens são removidos da pilha na ordem inversa àquela em que foram inseridos, ou seja, **o último a entrar é o primeiro a sair**

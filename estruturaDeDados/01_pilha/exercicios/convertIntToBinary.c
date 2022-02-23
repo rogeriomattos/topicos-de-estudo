@@ -19,6 +19,7 @@ Pilha createPilha(int maxLength)
   p->max = maxLength;
   p->topo = -1;
   p->item = malloc(sizeof(Item));
+  return p;
 }
 
 void insertPilha(Item item, Pilha p)

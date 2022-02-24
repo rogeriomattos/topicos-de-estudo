@@ -69,7 +69,17 @@ Como um exemplo, temos um objeto genérico “Eletrodoméstico”. Esse objeto p
 ## Conceitos Estruturais
 
 ### 1. Classe
+Classe	é	uma	estrutura	que	abstrai	um	conjunto	de	objetos	com
+características	similares.	Uma	classe	define	o	comportamento	de	seus
+objetos	através	de	métodos	e	os	estados	possíveis	destes	objetos	através
+de	 atributos.	 Em	 outros	 termos,	 **uma	 classe	 descreve	 os	 serviços
+providos	por	seus	objetos	e	quais	informações	eles	podem	armazenar.**
 
+O	 objetivo	 de	 uma
+classe	é	definir,	**servir	de	base**,	para	o	que	futuramente	será	o	objeto.
+É	através	 dela	 que	 criamos	 o	 "molde"	aos	 quais	 os	 objetos	 deverão
+seguir.	Este	 "molde"	definirá	quais	informações	serão	 trabalhadas	e
+como	elas	serão	manipuladas.
 
 ## Referências
 <ul>

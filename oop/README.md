@@ -1,10 +1,36 @@
 # Orientação a Objetos
 
+Súmario
+<ul>
+  <li>
+  <a href="#o-que-%C3%A9">
+    O que é?
+  </a>
+  </li>
+  <li>
+  <a href="#diferen%C3%A7as-entre-oop-e-o-paradigma-estruturado">
+    Diferenças entre OOP e o paradigma estruturado
+  </a>
+  </li>
+  <li>
+    <a href="#pilares">
+      Pilares
+    </a>
+  </li>
+  <li>
+    <a href="#conceitos-estruturais">
+      Conceitos Estruturais
+    </a>
+  </li>
+</ul>
+
 ## O que é?
 
 A	Orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos.  OOP torna mais fácil atingirmos reúso, acoplamento, entre outras técnicas que visam tornar o código mais profissional	e	de fácil manutenção.
 
 ## Diferenças entre OOP e o paradigma estruturado
+
+[Falta escrever]
 
 ## Pilares
 
@@ -39,6 +65,11 @@ O objeto abaixo na hierarquia irá herdar características de todos os objetos a
 Na natureza, vemos animais que são capazes de alterar sua forma conforme a necessidade, e é dessa ideia que vem o polimorfismo na orientação a objetos. Como sabemos, os objetos filhos herdam as características e ações de seus “ancestrais”. Entretanto, em alguns casos, é necessário que as ações para um mesmo método seja diferente. Em outras palavras, o polimorfismo consiste na alteração do funcionamento interno de um método herdado de um objeto pai.
 
 Como um exemplo, temos um objeto genérico “Eletrodoméstico”. Esse objeto possui um método, ou ação, “Ligar()”. Temos dois objetos, “Televisão” e “Geladeira”, que não irão ser ligados da mesma forma. Assim, precisamos, para cada uma das classes filhas, reescrever o método “Ligar()”.
+
+## Conceitos Estruturais
+
+### 1. Classe
+
 
 ## Referências
 <ul>

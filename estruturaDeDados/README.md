@@ -71,3 +71,11 @@ O primeiro printf mostra o endereço de memória que o ponteiro armazenou, no se
 Pilha é uma lista em que todas as operações de inserção, remoção e acesso são feitas num mesmo extremo, denominado topo.
 
 Quando um item é inserido numa pilha, ele é colocado em seu top e, em qualquer instante, apenas o item no topo da pilha pode ser removido. Devido a essa política de acesso, os itens são removidos da pilha na ordem inversa àquela em que foram inseridos, ou seja, **o último a entrar é o primeiro a sair**
+
+## Fila
+
+Fila é uma lista em que as inserções são feitas num extremo, denominado final, e as remoçoes são feitas no extremo oposto, denominado início.
+
+Quando um novo item é inserido numa fila, ele é colocado em seu final e, em qualquer instante, apenas o item no início da fila pode ser removido. **O primeiro a entra é o primeiro a sair.** Por isso, as filas também são denominadas listas FIFO (First-In/First-Out).
+
+A principal propriedade de uma fila é a sua capacidade de manter a ordem de uma sequência.
